@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Independiente Santa Fe - Sitio Oficial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        /* Tu estilo personalizado aquí, si es necesario */
+
+    </style>
+</head>
+<body>
+    <header class="bg-danger text-white">
+        <div class="container">
+            <h1 class="text-center">Independiente Santa Fe</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resultados">Resultados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#noticias">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fichajes">Fichajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#salidas">Salidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proximos-partidos">Próximos Partidos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="resultados" class="container my-4">
+        <h2 class="titulo-grande">Resultados</h2>
+        <p>Santa Fe 1 - Boyacá Chicó 1</p>
+    </section>
+
+    <section id="noticias" class="container my-4">
+        <h2 class="titulo-grande">Noticias</h2>
+        <p>Juan Daniel Espitia recibirá sanción de dos fechas por su tarjeta roja en el juego contra Millonarios.</p>
+        <p>Rodallega cada vez más cerca de regresar de su lesión.</p>
+        <p>Los jugadores que estuvieron en la selección sub-23 volverán a los entrenamientos esta semana.</p>
+    </section>
+
+    <section id="fichajes" class="container my-4">
+        <h2 class="titulo-grande">Fichajes</h2>
+        <p>Mercado de fichajes cerrado.</p>
+    </section>
+
+    <section id="salidas" class="container my-4">
+        <h2 class="titulo-grande">Salidas</h2>
+        <p>Mercado de fichajes cerrado.</p>
+    </section>
+
+    <section id="proximos-partidos" class="container my-4">
+        <h2 class="titulo-grande">Próximos Partidos</h2>
+        <p>Domingo 17/9 4:00 pm vs Alianza Petrolera (L)</p>
+        <p>Miércoles 20/9 8:20 pm vs Atlético Nacional (V)</p>
+        <p>Domingo 24/9 6:10 pm vs Deportivo Pereira (L)</p>
+    </section>
+
+    <aside class="bg-dark text-white py-4">
+        <h3 class="titulo-grande">Autor</h3>
+        <p>Este sitio web fue creado por Rafael Herrera, un apasionado seguidor de Independiente Santa Fe. Puedes contactar a Rafael en <a
+                href="mailto:rh2007av@gmail.com">rh2007av@gmail.com</a>.</p>
+    </aside>
+
+    <footer class="bg-danger text-white text-center py-3">
+        <p>Todos los derechos reservados &copy; Independiente Santa Fe</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
